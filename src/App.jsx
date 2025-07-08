@@ -16,6 +16,8 @@ import ProductSectionRightImage from './ProductSectionRightImage'
 import Footer from './Footer'
 import ProductGrid from './ProductGrid'
 import InfoCard from './InfoCard'
+import AccrodianApp from './AccrodianApp'
+import Accordion from './Accrodion'
 
 const App = () => {
   return (
@@ -39,6 +41,7 @@ const App = () => {
        <InfoCard/>
        <CardGrid/>
        <ProductGrid/>
+       <Accordion/>
        <Footer/>
     </>
   )
